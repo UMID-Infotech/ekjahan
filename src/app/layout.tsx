@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 import Navigation from "@/components/navigation/navigation";
-// import Footer from "@/components/footer/Footer";
+import FooterNavigation from "@/components/navigation/FooterNavigation";
+
 
 export const metadata: Metadata = {
   title: "Ekjahan Enterprises",
@@ -19,6 +20,7 @@ export default function RootLayout({
       <body>
         <Navigation />
         <main>{children}</main>
+        <FooterNavigation />
       </body>
     </html>
   );

@@ -47,7 +47,7 @@ const Navigation = () => {
         <div className="flex justify-between items-center px-6 h-[60px]">
           <Link href="/">
             <Image
-              src="/images/ekjahan.jpeg"
+              src="/images/ekjahan_logo.svg"
               alt="Ekjahan Enterprises"
               width={120}
               height={40}

@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-import "@/components/navigation/footer-navigation.css";
+import "@/components/navigation/navigation.css";
 
 import { Home, ShieldCheck, BriefcaseBusiness, Menu } from "lucide-react";
 

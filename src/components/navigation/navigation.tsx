@@ -55,15 +55,23 @@ const Navigation = () => {
             />
           </Link>
 
-          <Link href="/">
-            <Image
-              src="/images/ekjahpar.png"
-              alt="Ekjahan Partnership"
-              width={120}
-              height={40}
-              className="object-contain hover:scale-105 transition-all"
-            />
-          </Link>
+            <Link href="/partnership">
+            <div className="flex flex-col items-center group">
+                <Image
+                src="/images/ekjahpar.png"
+                alt="Ekjahan Partnership"
+                width={120}
+                height={40}
+                className="object-contain transition-all group-hover:scale-105"
+                />
+
+                <span className="text-[10px] mt-1 text-gray-700 font-medium group-hover:text-[#eb5a25] transition-colors">
+                Partnership
+                </span>
+            </div>
+            </Link>
+
+          
         </div>
       </nav>
     </>

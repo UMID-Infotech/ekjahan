@@ -58,7 +58,7 @@ const Navigation = () => {
             <Link href="/partnership">
             <div className="flex flex-col items-center group">
                 <Image
-                src="/images/ekjahpar.png"
+                src="/images/ekjahan_partner.svg"
                 alt="Ekjahan Partnership"
                 width={120}
                 height={40}
